@@ -13,7 +13,7 @@
 - [Contributing](#contributing)
 - [Contact](#contact)
 - [API](#api)
-    -[API Params](#api-params)
+  - [API Params](#api-params)
 
 <!-- ABOUT THE PROJECT -->
 # Got Tech? Midterm Project
