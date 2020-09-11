@@ -10,6 +10,8 @@
   - [Used Packages & Modules](#used-packages-&-modules)
   - [Prerequisites](#prerequisites)
   - [Installation](#installation)
+  - [Available build commands](#available-build-commands)
+  - [To deploy](#to-deploy)
 - [Contributing](#contributing)
 - [Contact](#contact)
 - [API](#api)
@@ -22,12 +24,12 @@
 
 This is a Job Search engine focusing on SoftWare Development.
 
-## Built With
+### Built With
 
 - [Bootstrap](https://getbootstrap.com)
 - [React](https://react.com)
 
-## Used Packages & Modules
+### Used Packages & Modules
 
 - [Axios](https://www.npmjs.com/package/react-axios)
 - [Yarn](https://www.npmjs.com/package/yarn)
@@ -35,12 +37,12 @@ This is a Job Search engine focusing on SoftWare Development.
 - [Express](https://www.npmjs.com/package/express)
 - [React Router DOM](https://www.npmjs.com/package/react-router-dom)
 
-## Prerequisites
+### Prerequisites
 
 - npm
   `sh npm install npm@latest -g `
 
-## Installation
+### Installation
 
 1. `git clone` this repo
    `sh git clone https://github.com/your_username_/Project-Name.git `
@@ -50,7 +52,7 @@ This is a Job Search engine focusing on SoftWare Development.
 4. `cd client && yarn install`
 5. `cp .env.sample .env`
 
-## Available build commands
+### Available build commands
 
 - `yarn dev`: Runs BOTH your Express.JS and React developer environment locally at the same time. Any logs coming from Express will be prefaced with `[0]`, any logs from `create-react-app` will be prefaced with `[1]`.
 - `yarn server`: Runs JUST your Express.JS server.
@@ -58,7 +60,7 @@ This is a Job Search engine focusing on SoftWare Development.
 
 Open [http://localhost:3000](http://localhost:3000) to view your local React app in the browser. The page will reload if you make edits.
 
-## To deploy
+### To deploy
 
 NOTE: Heroku specifically runs `npm start`, so don't remove that from your package.json file.
 
